@@ -1,0 +1,77 @@
+﻿@model IEnumerable<DataLayer.Entities.Account>
+@{
+    ViewData["Title"] = "Account Management";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Account Management</h2>
+
+    <!-- Search Box -->
+    <div class="input-group mb-3">
+        <input type="text" id="searchBox" class="form-control" placeholder="Search by name or email">
+        <button class="btn btn-primary" onclick="search()">Search</button>
+    </div>
+
+    <!-- Add Account Button -->
+    <button class="btn btn-success mb-3" onclick="openCreateModal()">+ Add New Account</button>
+
+    <!-- Table -->
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Email</th>
+                <th>Full Name</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var account in Model)
+            {
+                <tr>
+                    <td>@account.Email</td>
+                    <td>@account.FullName</td>
+                    <td>@(account.Role == 1 ? "Staff" : "Lecturer")</td>
+                    <td>
+                        <span class="badge @(account.Status ? "bg-success" : "bg-danger")">
+                            @(account.Status ? "Active" : "Inactive")
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" onclick="openEditModal(@account.Id)">Edit</button>
+                        <button class="btn btn-danger btn-sm" onclick="openDeleteModal(@account.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Placeholder -->
+<div id="modalPlaceholder"></div>
+
+@section Scripts {
+    <script>
+        function openCreateModal() {
+            $.get('/Account/Create', function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalCreate')).show();
+            });
+        }
+
+        function openEditModal(id) {
+            $.get('/Account/Edit/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalEdit')).show();
+            });
+        }
+
+        function openDeleteModal(id) {
+            $.get('/Account/Delete/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalDelete')).show();
+            });
+        }
+    </script>
+}

@@ -1,0 +1,47 @@
+﻿@model DataLayer.Entities.Account
+
+<div class="modal fade" id="modalCreate" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Create New Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Email:</label>
+                        <input asp-for="Email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password:</label>
+                        <input asp-for="Password" type="password" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name:</label>
+                        <input asp-for="FullName" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Role:</label>
+                        <select asp-for="Role" class="form-select">
+                            <option value="1">Staff</option>
+                            <option value="2">Lecturer</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Status:</label>
+                        <select asp-for="Status" class="form-select">
+                            <option value="true">Active</option>
+                            <option value="false">Inactive</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Save</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    

@@ -1,0 +1,28 @@
+DataAccess Layer:
+-> Repository lấy dữ liệu từ database.
+-> DAO để xử lý truy vấn SQL phức tạp nếu cần.
+BusinessLogic Layer:
+-> Nhận yêu cầu từ Controller.
+-> Gọi Repository để thao tác dữ liệu.
+-> Xử lý logic nghiệp vụ (ví dụ: kiểm tra quyền, validate dữ liệu).
+Presentation Layer (StudentNameMVC):
+-> Gửi yêu cầu từ View lên Controller.
+-> Controller gọi Service xử lý data.
+-> Trả về View.
+
+Admin:
+Quản lý tài khoản.
+Xem báo cáo thống kê (từ ngày - đến ngày).
+Staff:
+Quản lý danh mục tin tức.
+Quản lý bài báo (CRUD + Tags).
+Xem lịch sử tin tức của bản thân.
+Lecturer:
+Chỉ được xem bài báo có trạng thái "Active".
+Người dùng không đăng nhập:
+Chỉ được xem bài báo có trạng thái "Active".
+
+Dùng popup dialog khi thực hiện Create/Update.
+Xác nhận khi Delete.
+Dùng LINQ để truy vấn và sắp xếp dữ liệu.
+Lưu thông tin đăng nhập Admin trong appsettings.json.
