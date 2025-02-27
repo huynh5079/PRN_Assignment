@@ -7,6 +7,7 @@ D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.Ge
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.sourcelink.json
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.dll
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\refint\DataLayer.dll
 D:\Code\CodeVisual\huynhnmt_SE17C04_A01\DataAccess\obj\Debug\net8.0\DataLayer.pdb

@@ -10,10 +10,15 @@ namespace BusinessLayer.Services.Implementations
     public class AccountService : IAccountService
     {
         private readonly IAccountRepository _accountRepository;
+        private readonly INewsArticleIRepository _newsArticleIRepository;
+        private readonly ITagRepository _tagRepository;
 
-        public AccountService(IAccountRepository accountRepository)
+
+        public AccountService(IAccountRepository accountRepository, INewsArticleIRepository newsArticleIRepository, ITagRepository tagRepository)
         {
             _accountRepository = accountRepository;
+            _newsArticleIRepository = newsArticleIRepository;
+            _tagRepository = tagRepository;
         }
 
         public async Task<IEnumerable<Account>> GetAllAccountsAsync()
@@ -39,13 +44,29 @@ namespace BusinessLayer.Services.Implementations
         public async Task<bool> DeleteAccountAsync(int id)
         {
             var account = await _accountRepository.GetByIdAsync(id);
-            if (account == null)
+            if (account == null) return false;
+
+            var articles = await _newsArticleIRepository.GetAllAsync();
+            var articlesToDelete = articles.Where(n => n.AuthorId == id).ToList();
+
+            foreach (var article in articlesToDelete)
             {
-                return false;
+                var tags = await _tagRepository.GetAllAsync();
+                var tagsToDelete = tags.Where(t => t.NewsArticleId == article.Id).ToList();
+
+                foreach (var tag in tagsToDelete)
+                {
+                    await _tagRepository.DeleteAsync(tag);
+                }
+
+                await _newsArticleIRepository.DeleteAsync(article);
             }
 
             await _accountRepository.DeleteAsync(account);
+
             return true;
         }
+
+
     }
 }

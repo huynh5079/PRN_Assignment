@@ -1,5 +1,80 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<DataLayer.Entities.NewsArticle>
 @{
+    ViewData["Title"] = "News Management";
+    string sortOrder = ViewData["SortOrder"] as string ?? "asc";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">News Articles</h2>
+
+    <!-- Search Box -->
+    <form method="get" class="input-group mb-3">
+        <input type="text" name="search" class="form-control" placeholder="Search news by title" value="@ViewData["SearchQuery"]">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <!-- Add News Button -->
+    <button class="btn btn-success mb-3" onclick="openCreateModal()">+ Add News Article</button>
+
+    <!-- Table -->
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th><a href="?sortOrder=@(sortOrder == "asc" ? "desc" : "asc")">Title</a></th>
+                <th>Category</th>
+                <th>Author</th>
+                <th>Created Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model)
+            {
+                <tr>
+                    <td>@article.Title</td>
+                    <td>@article.Category.Name</td>
+                    <td>@article.Author.FullName</td>
+                    <td>@(article.CreatedDate.HasValue ? article.CreatedDate.Value.ToString("yyyy-MM-dd") : "N/A")</td>
+                    <td>
+                        <span class="badge @(article.Status ? "bg-success" : "bg-danger")">
+                            @(article.Status ? "Active" : "Inactive")
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" onclick="openEditModal(@article.Id)">Edit</button>
+                        <button class="btn btn-danger btn-sm" onclick="openDeleteModal(@article.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Placeholder -->
+<div id="modalPlaceholder"></div>
+
+@section Scripts {
+    <script>
+        function openCreateModal() {
+            $.get('/NewsArticle/Create', function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalCreate')).show();
+            });
+        }
+
+        function openEditModal(id) {
+            $.get('/NewsArticle/Edit/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalEdit')).show();
+            });
+        }
+
+        function openDeleteModal(id) {
+            $.get('/NewsArticle/Delete/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalDelete')).show();
+            });
+        }
+    </script>
 }

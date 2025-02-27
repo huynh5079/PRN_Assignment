@@ -7,10 +7,10 @@
     <h2 class="mb-3">Account Management</h2>
 
     <!-- Search Box -->
-    <div class="input-group mb-3">
-        <input type="text" id="searchBox" class="form-control" placeholder="Search by name or email">
-        <button class="btn btn-primary" onclick="search()">Search</button>
-    </div>
+    <form method="get" class="input-group mb-3">
+        <input type="text" name="search" class="form-control" placeholder="Search account by mail" value="@ViewData["SearchQuery"]">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
 
     <!-- Add Account Button -->
     <button class="btn btn-success mb-3" onclick="openCreateModal()">+ Add New Account</button>

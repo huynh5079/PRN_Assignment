@@ -14,15 +14,26 @@ namespace HuynhnmtMVC.Controllers
             _categoryService = categoryService;
         }
 
-        public async Task<IActionResult> Index(string search)
+        public async Task<IActionResult> Index(string search, string sortOrder)
         {
             var categories = await _categoryService.GetAllCategoriesAsync();
+
+            // Search Filtering
             if (!string.IsNullOrEmpty(search))
             {
-                categories = categories.Where(c => c.Name.Contains(search));
+                categories = categories.Where(c => c.Name.Contains(search)).ToList();
+                ViewData["SearchQuery"] = search;
             }
-            return View(categories);
+
+            // Sorting
+            ViewData["SortOrder"] = sortOrder;
+            categories = sortOrder == "desc" ? categories.OrderByDescending(c => c.Name).ToList()
+                                             : categories.OrderBy(c => c.Name).ToList();
+
+            return View(categories); 
         }
+
+
 
         public IActionResult Create() => View();
 

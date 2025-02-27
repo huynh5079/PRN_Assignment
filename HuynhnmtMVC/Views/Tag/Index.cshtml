@@ -1,5 +1,64 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<DataLayer.Entities.Tag>
 @{
+    ViewData["Title"] = "Tag Management";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Tag Management</h2>
+
+    <form method="get" class="input-group mb-3">
+        <input type="text" name="search" class="form-control" placeholder="Search tags" value="@ViewData["SearchQuery"]">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <button class="btn btn-success mb-3" onclick="openCreateModal()">+ Add Tag</button>
+
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Tag Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tag in Model)
+            {
+                <tr>
+                    <td>@tag.Name</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" onclick="openEditModal(@tag.Id)">Edit</button>
+                        <button class="btn btn-danger btn-sm" onclick="openDeleteModal(@tag.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Placeholder -->
+<div id="modalPlaceholder"></div>
+
+@section Scripts {
+    <script>
+        function openCreateModal() {
+            $.get('/Tag/Create', function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalCreate')).show();
+            });
+        }
+
+        function openEditModal(id) {
+            $.get('/Tag/Edit/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalEdit')).show();
+            });
+        }
+
+        function openDeleteModal(id) {
+            $.get('/Tag/Delete/' + id, function (data) {
+                $('#modalPlaceholder').html(data);
+                new bootstrap.Modal(document.getElementById('modalDelete')).show();
+            });
+        }
+    </script>
 }

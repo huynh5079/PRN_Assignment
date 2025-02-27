@@ -14,9 +14,14 @@ namespace HuynhnmtMVC.Controllers
             _accountService = accountService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search)
         {
             var accounts = await _accountService.GetAllAccountsAsync();
+            if (!string.IsNullOrEmpty(search))
+            {
+                accounts = accounts.Where(c => c.Email.Contains(search)).ToList();
+                return View(accounts);
+            }
             return View(accounts);
         }
 
