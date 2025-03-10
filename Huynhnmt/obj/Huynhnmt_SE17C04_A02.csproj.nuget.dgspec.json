@@ -244,10 +244,6 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[9.0.2, )"

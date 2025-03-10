@@ -3,6 +3,8 @@ using DataLayer.Repositories.Interfaces;
 using BusinessLayer.Services.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace BusinessLayer.Services
 {
@@ -43,6 +45,27 @@ namespace BusinessLayer.Services
         public async Task DeleteAccountAsync(SystemAccount account)
         {
             await _systemAccountRepository.DeleteAsync(account);
+        }
+
+        //login
+
+        public async Task<SystemAccount?> AuthenticateAsync(string email, string password)
+        {
+            var user = await _systemAccountRepository.GetByEmailAsync(email);
+            if (user == null || !VerifyPassword(password, user.AccountPassword))
+            {
+                return null; // Invalid email or password
+            }
+            return user; // Authentication successful
+        }
+
+        private bool VerifyPassword(string inputPassword, string storedPassword)
+        {
+            // Compare plain text password with stored hashed password
+            using var sha256 = SHA256.Create();
+            var hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(inputPassword));
+            var hashString = Convert.ToBase64String(hashBytes);
+            return hashString == storedPassword;
         }
     }
 }

@@ -1,0 +1,29 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Tags.IndexModel
+@{
+    ViewData["Title"] = "Tags Management";
+}
+
+<h1>Tags</h1>
+<a asp-page="./Create" class="btn btn-success">Create Tag</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tag Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tag in Model.Tags)
+        {
+            <tr>
+                <td>@tag.TagName</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@tag.TagId" class="btn btn-primary">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@tag.TagId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Categories.IndexModel
+@{
+    ViewData["Title"] = "News Categories";
+}
+
+<h1>Categories</h1>
+<a asp-page="./Create" class="btn btn-success">Create Category</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>@category.CategoryDescription</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@category.CategoryId" class="btn btn-primary">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@category.CategoryId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

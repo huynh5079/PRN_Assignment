@@ -1,0 +1,29 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Accounts.IndexModel
+@{
+    ViewData["Title"] = "User Accounts";
+}
+
+<h1>Accounts</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model.Accounts)
+        {
+            <tr>
+                <td>@account.AccountEmail</td>
+                <td>@account.AccountRole</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@account.AccountId" class="btn btn-primary">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@account.AccountId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

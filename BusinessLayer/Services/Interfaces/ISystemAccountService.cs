@@ -11,5 +11,9 @@ namespace BusinessLayer.Services.Interfaces
         Task AddAccountAsync(SystemAccount account);
         Task UpdateAccountAsync(SystemAccount account);
         Task DeleteAccountAsync(SystemAccount account);
+
+        //login
+        Task<SystemAccount?> AuthenticateAsync(string email, string password);
+
     }
 }

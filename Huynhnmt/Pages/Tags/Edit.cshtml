@@ -1,0 +1,20 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Tags.EditModel
+@{
+    ViewData["Title"] = "Edit Tag";
+}
+
+<h1>Edit Tag</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Tag.TagId" />
+
+    <div class="form-group">
+        <label for="TagName">Tag Name</label>
+        <input asp-for="Tag.TagName" class="form-control" required />
+        <span asp-validation-for="Tag.TagName" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+</form>

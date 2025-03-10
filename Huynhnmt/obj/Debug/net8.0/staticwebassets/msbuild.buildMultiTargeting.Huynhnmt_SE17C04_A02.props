@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Huynhnmt_SE17C04_A02.props" />
+</Project>

@@ -1,0 +1,35 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.NewsArticles.IndexModel
+@{
+    ViewData["Title"] = "News Articles";
+}
+
+<h1>News Articles</h1>
+<a asp-page="./Create" class="btn btn-success">Create News</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Headline</th>
+            <th>Category</th>
+            <th>Created Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var news in Model.NewsArticles)
+        {
+            <tr>
+                <td>@news.NewsTitle</td>
+                <td>@news.Headline</td>
+                <td>@news.Category?.CategoryName</td>
+                <td>@news.CreatedDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@news.NewsArticleId" class="btn btn-primary">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@news.NewsArticleId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

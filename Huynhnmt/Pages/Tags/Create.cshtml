@@ -1,0 +1,18 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Tags.CreateModel
+@{
+    ViewData["Title"] = "Create Tag";
+}
+
+<h1>Create Tag</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="TagName">Tag Name</label>
+        <input asp-for="Tag.TagName" class="form-control" required />
+        <span asp-validation-for="Tag.TagName" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+</form>

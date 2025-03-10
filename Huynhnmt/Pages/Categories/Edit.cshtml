@@ -1,0 +1,25 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Categories.EditModel
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<h1>Edit Category</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Category.CategoryId" />
+
+    <div class="form-group">
+        <label for="CategoryName">Category Name</label>
+        <input asp-for="Category.CategoryName" class="form-control" />
+        <span asp-validation-for="Category.CategoryName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="CategoryDescription">Description</label>
+        <textarea asp-for="Category.CategoryDescription" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+</form>

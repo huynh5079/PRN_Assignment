@@ -8,6 +8,7 @@ D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessL
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll

@@ -1,12 +1,13 @@
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.runtimeconfig.json
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.pdb
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.csproj.AssemblyReference.cache
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
-D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
-D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.runtimeconfig.json
-D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.dll
-D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\bin\Debug\net8.0\DataLayer.pdb
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.sourcelink.json
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\DataLayer\obj\Debug\net8.0\DataLayer.pdb

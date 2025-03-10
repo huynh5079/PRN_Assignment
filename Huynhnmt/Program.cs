@@ -4,6 +4,7 @@ using DataLayer.Data;
 using DataLayer.Entities;
 using DataLayer.Repositories.Implementations;
 using DataLayer.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,11 +16,14 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 // Add Identity
 
 // Add authentication
-builder.Services.AddAuthentication()
-    .AddCookie(options => {
-        options.LoginPath = "/Account/Login";
-        options.AccessDeniedPath = "/Account/AccessDenied";
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Login"; // Redirect to login page if not authenticated
+        options.AccessDeniedPath = "/AccessDenied"; // Redirect if access is denied
     });
+
+builder.Services.AddAuthorization();
 
 //Add Repository
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -50,6 +54,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();// authen middleware
 
 app.UseAuthorization();
 
