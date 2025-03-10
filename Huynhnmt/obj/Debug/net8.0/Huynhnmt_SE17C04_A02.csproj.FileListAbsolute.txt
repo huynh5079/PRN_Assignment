@@ -1,0 +1,8 @@
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.csproj.AssemblyReference.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.AssemblyInfoInputs.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.AssemblyInfo.cs
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.csproj.CoreCompileInputs.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.MvcApplicationPartsAssemblyInfo.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.RazorAssemblyInfo.cache
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\obj\Debug\net8.0\Huynhnmt_SE17C04_A02.RazorAssemblyInfo.cs
