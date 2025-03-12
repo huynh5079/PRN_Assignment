@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Huynhnmt_SE17C04_A02.Pages.Categories
 {
-    //[Authorize]
+    [Authorize]
     public class EditModel : PageModel
     {
         private readonly ICategoryService _categoryService;

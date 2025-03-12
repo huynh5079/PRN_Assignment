@@ -15,15 +15,16 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 
 // Add Identity
 
-// Add authentication
+// Add login
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Login"; // Redirect to login page if not authenticated
-        options.AccessDeniedPath = "/AccessDenied"; // Redirect if access is denied
+        options.LoginPath = "/Login";
+        options.AccessDeniedPath = "/AccessDenied";
     });
 
 builder.Services.AddAuthorization();
+builder.Services.AddHttpContextAccessor();
 
 //Add Repository
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();

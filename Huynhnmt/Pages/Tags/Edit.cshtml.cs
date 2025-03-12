@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Huynhnmt_SE17C04_A02.Pages.Tags
 {
-    //[Authorize]
+    [Authorize]
     public class EditModel : PageModel
     {
         private readonly ITagService _tagService;

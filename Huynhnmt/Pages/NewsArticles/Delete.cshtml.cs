@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Huynhnmt_SE17C04_A02.Pages.NewsArticles
 {
-    //[Authorize]
+    [Authorize]
     public class DeleteModel : PageModel
     {
         private readonly INewsArticleService _newsArticleService;

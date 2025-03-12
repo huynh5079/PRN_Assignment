@@ -37,13 +37,17 @@ namespace Huynhnmt_SE17C04_A02.Pages
             {
                 new Claim(ClaimTypes.Name, user.AccountName),
                 new Claim(ClaimTypes.Email, user.AccountEmail),
-                new Claim(ClaimTypes.Role, user.AccountRole.ToString()) // Store role
+                new Claim("AccountRole", user.AccountRole.ToString()) // Debug this
             };
+
+            Console.WriteLine($"User {user.AccountName} has role: {user.AccountRole}");
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal,
+                new AuthenticationProperties { IsPersistent = true });
+
 
             return RedirectToPage("/Index");
         }

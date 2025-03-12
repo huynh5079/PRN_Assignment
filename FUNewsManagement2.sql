@@ -54,13 +54,13 @@ CREATE TABLE NewsTag (
 );
 
 INSERT INTO SystemAccount (AccountName, AccountEmail, AccountRole, AccountPassword) VALUES
-('Admin', 'admin@FUNewsManagementSystem.org', 0, '@@abc123@@'), -- Admin role (0 as per config)
-('Johndoe', 'john.doe@funews.org', 1, 'password123'), -- Staff
-('Janesmith', 'jane.smith@funews.org', 1, 'pass456'), -- Staff
-('Michaelbrown', 'michael.brown@funews.org', 2, 'lecturer789'), -- Lecturer
-('Sarahlee', 'sarah.lee@funews.org', 1, 'staff101'), -- Staff
-('Davidkim', 'david.kim@funews.org', 2, 'teach202'), -- Lecturer
-('Emilychen', 'emily.chen@funews.org', 1, 'emp303'); -- Staff
+('Admin', 'admin@FUNewsManagementSystem.org', 0, '123123'), -- Admin role (0 as per config)
+('Johndoe', 'john.doe@funews.org', 1, '123123'), -- Staff
+('Janesmith', 'jane.smith@funews.org', 1, '123123'), -- Staff
+('Michaelbrown', 'michael.brown@funews.org', 2, '123123'), -- Lecturer
+('Sarahlee', 'sarah.lee@funews.org', 1, '123123'), -- Staff
+('Davidkim', 'david.kim@funews.org', 2, '123123'), -- Lecturer
+('Emilychen', 'emily.chen@funews.org', 1, '123123'); -- Staff
 
 INSERT INTO Category (CategoryName, CategoryDescription, ParentCategoryID, IsActive) VALUES
 ('Campus News', 'News related to campus events', NULL, 1),
@@ -108,3 +108,13 @@ WHERE NewsArticleID = 5; -- Tech Workshop (originally CreatedByID = 6)
 UPDATE NewsArticle
 SET CreatedByID = 7, UpdatedByID = 7
 WHERE NewsArticleID = 6; -- Football Match Cancelled (originally CreatedByID = 6)
+
+UPDATE SystemAccount
+SET AccountPassword = LOWER(CONVERT(NVARCHAR(64), HASHBYTES('SHA2_256', '123123'), 2));
+
+--Corrupt Hash
+--UPDATE SystemAccount
+--SET AccountPassword = LOWER(CONVERT(NVARCHAR(64), HASHBYTES('SHA2_256', AccountPassword), 2));
+--UPDATE SystemAccount
+--SET AccountPassword = CONVERT(NVARCHAR(64), HASHBYTES('SHA2_256', AccountPassword));
+--Corrupt Hash

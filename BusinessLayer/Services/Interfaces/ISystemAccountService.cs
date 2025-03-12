@@ -13,7 +13,8 @@ namespace BusinessLayer.Services.Interfaces
         Task DeleteAccountAsync(SystemAccount account);
 
         //login
-        Task<SystemAccount?> AuthenticateAsync(string email, string password);
+        Task<SystemAccount?> AuthenticateAsync(string identifier, string password);
+        Task<bool> RegisterAsync(string name, string email, string password, int role);
 
     }
 }

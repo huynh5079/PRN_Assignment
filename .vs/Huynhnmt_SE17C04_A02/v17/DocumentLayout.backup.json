@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\accounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\accounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\accounts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\accounts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECCA45ED-A310-4478-8E8C-E90CEA7213F7}|BusinessLayer\\BusinessLayer.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\businesslayer\\utilities\\rolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECCA45ED-A310-4478-8E8C-E90CEA7213F7}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\utilities\\rolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|d:\\code\\codevisual\\huynhnmt_se17c04_a02\\huynhnmt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410AD22F-855E-4F75-9CB7-13B85005EC49}|Huynhnmt\\Huynhnmt_SE17C04_A02.csproj|solutionrelative:huynhnmt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Accounts\\Create.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Create.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Accounts\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:40:32.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Accounts\\Edit.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Edit.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Accounts\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:40:20.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Accounts\\Delete.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Delete.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Accounts\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAD4vwsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:39:53.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:38:08.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Categories\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Categories\\Index.cshtml.cs",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Categories\\Index.cshtml.cs",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Categories\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:35:08.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Categories\\Index.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:34:49.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Accounts\\Index.cshtml.cs",
               "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Index.cshtml.cs",
               "RelativeToolTip": "Huynhnmt\\Pages\\Accounts\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:35:25.274Z",
+              "WhenOpened": "2025-03-12T19:43:00.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Huynhnmt\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:21:16.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Accounts\\Index.cshtml",
-              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Accounts\\Index.cshtml",
-              "RelativeToolTip": "Huynhnmt\\Pages\\Accounts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Login.cshtml",
+              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Huynhnmt\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T14:34:45.365Z",
+              "WhenOpened": "2025-03-12T19:21:05.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Program.cs",
+              "RelativeDocumentMoniker": "Huynhnmt\\Program.cs",
+              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Program.cs",
+              "RelativeToolTip": "Huynhnmt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:17:24.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Huynhnmt\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T19:17:00.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleHelper.cs",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\BusinessLayer\\Utilities\\RoleHelper.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Utilities\\RoleHelper.cs",
+              "ToolTip": "D:\\Code\\CodeVisual\\Huynhnmt_SE17C04_A02\\BusinessLayer\\Utilities\\RoleHelper.cs",
+              "RelativeToolTip": "BusinessLayer\\Utilities\\RoleHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:16:13.119Z",
               "EditorCaption": ""
             }
           ]

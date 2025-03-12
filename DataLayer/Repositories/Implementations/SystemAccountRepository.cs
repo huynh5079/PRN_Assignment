@@ -50,6 +50,11 @@ namespace DataLayer.Repositories.Implementations
             return await _dbSet.FirstOrDefaultAsync(a => a.AccountEmail == email);
         }
 
+        public async Task<SystemAccount?> GetByAccountNameAsync(string name)
+        {
+            return await _dbSet.FirstOrDefaultAsync(a => a.AccountName == name);
+        }
+
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
