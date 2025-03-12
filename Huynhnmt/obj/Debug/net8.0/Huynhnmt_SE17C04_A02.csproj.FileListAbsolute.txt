@@ -11,8 +11,11 @@ D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Azure.Core.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Azure.Identity.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Humanizer.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
@@ -47,6 +50,8 @@ D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Exte
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Code\CodeVisual\Huynhnmt_SE17C04_A02\Huynhnmt\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll

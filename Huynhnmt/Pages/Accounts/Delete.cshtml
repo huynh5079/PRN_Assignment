@@ -1,0 +1,21 @@
+﻿@page
+@model Huynhnmt_SE17C04_A02.Pages.Accounts.DeleteModel
+@{
+    ViewData["Title"] = "Delete Account";
+}
+
+<h1>Delete Account</h1>
+
+<p>Are you sure you want to delete this account?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Account.AccountId" />
+
+    <div class="form-group">
+        <label>Email:</label>
+        <input asp-for="Account.AccountEmail" class="form-control" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+</form>
