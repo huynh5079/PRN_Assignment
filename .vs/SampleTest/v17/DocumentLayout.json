@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\CodeVisual\\SampleTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25EE42-762A-4EF9-BE96-06F9FE630185}|SampleTest\\SampleTest.csproj|d:\\code\\codevisual\\sampletest\\sampletest\\pages\\auth\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25EE42-762A-4EF9-BE96-06F9FE630185}|SampleTest\\SampleTest.csproj|solutionrelative:sampletest\\pages\\auth\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25EE42-762A-4EF9-BE96-06F9FE630185}|SampleTest\\SampleTest.csproj|d:\\code\\codevisual\\sampletest\\sampletest\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25EE42-762A-4EF9-BE96-06F9FE630185}|SampleTest\\SampleTest.csproj|solutionrelative:sampletest\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\SampleTest\\SampleTest\\Pages\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "SampleTest\\Pages\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\Code\\CodeVisual\\SampleTest\\SampleTest\\Pages\\Auth\\Register.cshtml",
+              "RelativeToolTip": "SampleTest\\Pages\\Auth\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T03:26:54.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\CodeVisual\\SampleTest\\SampleTest\\Pages\\Auth\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SampleTest\\Pages\\Auth\\Register.cshtml.cs",
+              "ToolTip": "D:\\Code\\CodeVisual\\SampleTest\\SampleTest\\Pages\\Auth\\Register.cshtml.cs",
+              "RelativeToolTip": "SampleTest\\Pages\\Auth\\Register.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:17:24.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
